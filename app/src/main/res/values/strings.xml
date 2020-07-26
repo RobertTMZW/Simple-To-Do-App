@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ToDo App</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_an_item_here">Add an item here</string>
+    <string name="update_item_here">Update item here</string>
+</resources>
