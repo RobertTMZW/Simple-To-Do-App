@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B0DDD9"
     tools:context=".MainActivity">
 
     <Button
@@ -32,15 +33,32 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/itemList"
-        android:layout_width="486dp"
-        android:layout_height="340dp"
+        android:layout_width="wrap_content"
+        android:layout_height="541dp"
         android:layout_above="@+id/editItem"
+        android:layout_below="@+id/tasks"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="66dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="363dp" />
+        android:layout_marginBottom="71dp"
+        android:background="#00DDE4EA" />
+
+    <TextView
+        android:id="@+id/tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="#00082E09"
+        android:fontFamily="sans-serif"
+        android:text="Tasks"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 </RelativeLayout>
